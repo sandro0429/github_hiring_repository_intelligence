@@ -1,0 +1,12 @@
+                   precision    recall  f1-score   support
+
+           intern       0.59      0.50      0.54        20
+           junior       0.50      0.47      0.48        15
+           senior       0.00      0.00      0.00         8
+             lead       0.68      0.93      0.78        29
+template_or_clone       0.50      0.17      0.25         6
+        low_value       0.56      0.68      0.61        22
+
+         accuracy                           0.60       100
+        macro avg       0.47      0.46      0.44       100
+     weighted avg       0.54      0.60      0.56       100

@@ -1,0 +1,42 @@
+{
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6691269586826194,
+      "val_loss": 1.4392210245132446,
+      "val_accuracy": 0.47474747474747475,
+      "val_f1_macro": 0.237665544332211
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.368963438889076,
+      "val_loss": 1.2012014133589608,
+      "val_accuracy": 0.47474747474747475,
+      "val_f1_macro": 0.2533627314946811
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.2410687290388962,
+      "val_loss": 1.1358247229031153,
+      "val_accuracy": 0.5252525252525253,
+      "val_f1_macro": 0.3279200455256793
+    }
+  ],
+  "test_metrics": {
+    "accuracy": 0.51,
+    "f1_macro": 0.29736530380678067,
+    "loss": 1.1653203964233398
+  },
+  "label_classes": [
+    "intern",
+    "junior",
+    "senior",
+    "lead",
+    "template_or_clone",
+    "low_value"
+  ],
+  "model": "distilbert-base-uncased",
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 2e-05
+}

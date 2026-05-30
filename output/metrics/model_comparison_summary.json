@@ -1,0 +1,10 @@
+{
+  "distilbert": {
+    "accuracy": 0.51,
+    "f1_macro": 0.29736530380678067
+  },
+  "baseline_tfidf_lr": {
+    "accuracy": 0.6,
+    "f1_macro": 0.44469212580692546
+  }
+}
